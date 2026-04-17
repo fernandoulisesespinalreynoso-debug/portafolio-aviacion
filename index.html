@@ -158,20 +158,5 @@
     <p>Portafolio de aviación Fernando Ulises · Diseñado con HTML y CSS</p>
   </footer>
  
-  <script>
-    const btn = document.getElementById('theme-toggle');
-    const root = document.documentElement;
-    const saved = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    root.dataset.theme = saved || (prefersDark ? 'dark' : 'light');
-    btn.textContent = root.dataset.theme === 'dark' ? 'Modo claro' : 'Modo oscuro';
-    btn.addEventListener('click', () => {
-      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
-      root.dataset.theme = next;
-      btn.textContent = next === 'dark' ? 'Modo claro' : 'Modo oscuro';
-      localStorage.setItem('theme', next);
-    });
-  </script>
- 
 </body>
 </html>
