@@ -487,16 +487,3 @@ footer {
   font-size: 0.8rem;
   letter-spacing: 0.05em;
 }
- 
-
-[data-theme="dark"] body { background: #0d1117; color: var(--cloud); }
-[data-theme="dark"] #modelos { background: #111827; }
-[data-theme="dark"] #sobre { background: #0d1520; }
-[data-theme="dark"] .modelos-list li { border-color: rgba(255,255,255,0.08); }
-[data-theme="dark"] .modelos-list li::before { color: rgba(255,255,255,0.1); }
-[data-theme="dark"] .modelos-list li span { color: var(--fog); }
-[data-theme="dark"] .sobre-left p { color: var(--fog); }
-[data-theme="dark"] .sobre-item { border-color: rgba(255,255,255,0.08); }
-[data-theme="dark"] .sobre-item ul li { color: var(--fog); }
-[data-theme="dark"] section > p { color: var(--fog);
-}
